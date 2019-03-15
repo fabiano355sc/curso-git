@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <title>Curso de Bootstrap 4 do TreinaWeb</title>
+  <style>
+    .text-centered {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- *** Barra de Navegação *** -->
+  <nav class="navbar bg-inverse navbar-dark">
+    <a href="#" class="navbar-brand">
+      <img src="assets/img/facebook-logo.png" style="width: 30px; height:auto" class="d-inline-block align-top">
+      Secretaria
+    </a>
+    <button class="navbar-toggler hidden-md-up float-sm-right float-xs-right" type="button" data-toggle="collapse" data-target="#menu-sanduiche"></button>
+    <div class="collapse navbar-toggleable-sm" id="menu-sanduiche">
+      <ul class="nav navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Matrículas</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Alunos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Cursos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Processos</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Turmas</a>
+            <a href="#" class="dropdown-item">Notas</a>
+            <a href="#" class="dropdown-item">Diário</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline float-md-right float-sm-left float-xs-left">
+        <input type="text" class="form-control" placeholder="Digite a pesquisar..." />
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+  <!-- *** FIM - Barra de Navegação *** -->
+  <div class="container">
+    <!-- *** jumbotron *** -->
+    <div class="jumbotron">
+      <h1 class="display-3">TESTE</h1>
+      <p class="lead">Esta página é do Sistema Secretaria</p>
+      <hr class="my-2">
+      <p>Esta página é do Sistema Secretaria</p>
+      <a class="btn btn-primary btn-lg" href="#">Clique aqui</a>
+    </div>
+    <!-- *** FIM - jumbotron *** -->
+    <!-- *** imagens *** -->
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12 text-centered">
+        <img src="assets/img/apple-1.jpg" class="img-fluid img-thumbnail">
+        <p class="lead">Texto</p>
+        <p>Descrição do texto</p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12 text-centered">
+        <img src="assets/img/keyboard.jpg" class="img-fluid img-thumbnail">
+        <p class="lead">Texto</p>
+        <p>Descrição do texto</p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12 text-centered">
+        <img src="assets/img/mouse.jpg" class="img-fluid img-thumbnail">
+        <p class="lead">Texto</p>
+        <p>Descrição do texto</p>
+      </div>
+    </div>
+    <!-- *** FIM - imagens *** -->
+    <!-- *** Cards *** -->
+    <div class="jumbotron text-centered">
+      <div class="row">
+        <h2>Depoimentos</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="card text-md-center text-sm-center text-xs-center">
+            <div class="card-block">
+              <h4 class="card-title">Depoimento 1</h4>
+              <h6 class="card-subtitle">Foi legal</h6>
+            </div>
+            <div class="card-block">
+              <p class="card-text">Foi muito legal, porque eu gostei demais. Parabéns!</p>
+              <a href="#" class="card-link">Link 1</a>
+              <a href="#" class="card-link">Link 2</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="card text-md-center text-sm-center text-xs-center card-inverse card-success">
+            <div class="card-block">
+              <h4 class="card-title">Depoimento 2</h4>
+              <h6 class="card-subtitle text-muted">Foi legal também</h6>
+            </div>
+            <div class="card-block">
+              <p class="card-text">Mais uma vez, teste!!!</p>
+              <a href="#" class="card-link">Link 1</a>
+              <a href="#" class="card-link">Link 2</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="card text-md-center text-sm-center text-xs-center">
+            <div class="card-block">
+              <h4 class="card-title">Depoimento 3</h4>
+              <h6 class="card-subtitle">Foi legal</h6>
+            </div>
+            <img src="assets/img/pessoa-1.jpg" style="width: 80%; height: auto;">
+            <div class="card-block">
+              <p class="card-text">Foi muito legal, porque eu gostei demais. Parabéns!</p>
+              <a href="#" class="card-link">Link 1</a>
+              <a href="#" class="card-link">Link 2</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="card text-md-center text-sm-center text-xs-center card-outline-danger">
+            <div class="card-block">
+              <h4 class="card-title">Depoimento 4</h4>
+              <h6 class="card-subtitle text-muted">Foi legal também</h6>
+            </div>
+            <img src="assets/img/pessoa-1.jpg" style="width: 80%; height: auto;">
+            <div class="card-block">
+              <p class="card-text">Mais uma vez, teste!!!</p>
+              <a href="#" class="card-link">Link 1</a>
+              <a href="#" class="card-link">Link 2</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="card text-md-center text-sm-center text-xs-center card-inverse">
+            <img class="card-img-top" src="assets/img/pessoa-1.jpg" style="width: 100%; height: auto;">
+            <div class="card-img-overlay">
+              <h4 class="card-title">Depoimento 5</h4>
+              <h6 class="card-subtitle">Incrivel!</h6>
+            </div>
+            <div class="card-block card-info">
+              <p class="card-text">Mais uma vez, teste!!!</p>
+              <a href="#" class="card-link">Link 1</a>
+              <a href="#" class="card-link">Link 2</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- *** FIM - Cards *** -->
+    <!-- *** Sanfona Acordion *** -->
+    <div class="row">
+      <div id="accordion" role="tablist">
+        <!-- *** Botões *** -->
+        <div class="card">
+          <div class="card-header" role="tab" id="botoes-cabecalho">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#accordion" href="#botoes-conteudo">Botões</a>
+            </h5>
+          </div>
+          <div id="botoes-conteudo" class="collapse" role="tabpanel">
+            <div class="card-block">
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-secondary">Secondary</button>
+              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" class="btn btn-warning">Warning</button>
+              <button type="button" class="btn btn-danger">Danger</button>
+              <button type="button" class="btn btn-link">Link</button>
+
+              <button type="button" class="btn btn-outline-primary">Primary</button>
+              <button type="button" class="btn btn-outline-danger">Danger</button>
+
+              <button type="button" class="btn btn-primary btn-lg">Large Button</button>
+              <button type="button" class="btn btn-danger btn-sm">Small Button</button>
+
+              <button type="button" class="btn btn-primary btn-block">Block 1</button>
+              <button type="button" class="btn btn-danger btn-block">Block 2</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- *** Form *** -->
+        <div class="card">
+          <div class="card-header" role="tab" id="forms-cabecalho">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#accordion" href="#forms-conteudo">Formulários</a>
+            </h5>
+          </div>
+          <div id="forms-conteudo" class="collapse" role="tabpanel">
+            <div class="card-block">
+              <p>Teste formulário...</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- *** Form Básico *** -->
+        <div class="card">
+          <div class="card-header" role="tab" id="form-basico-cabecalho">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#accordion" href="#form-basico-conteudo">Formulário Básico</a>
+            </h5>
+          </div>
+          <div id="form-basico-conteudo" class="collapse" role="tabpanel">
+            <div class="card-block">
+              <form>
+                <div class="form-group">
+                  <label for="txt-nome">Nome:</label>
+                  <input type="text" id="txt-nome" class="form-control" placeholder="Insira seu nome">
+                </div>
+                <div class="form-group">
+                  <label for="txt-senha">Senha:</label>
+                  <input type="password" id="txt-senha" class="form-control" placeholder="Insira sua senha">
+                </div>
+                <div class="form-group">
+                  <label for="slt-perfil">Perfil:</label>
+                  <select id="slt-perfil" class="form-control">
+                    <option>Administrador</option>
+                    <option>Somente leitura</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="slt-cidade">Cidade:</label>
+                  <select multiple class="form-control">
+                    <option>São Paulo</option>
+                    <option>Criciúma</option>
+                    <option>Tubarão</option>
+                  </select>
+                </div>
+                <fieldset class="form-group">
+                  <legend>Selecione a forma de tratamento</legend>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="formas-tratamento" id="forma-tratamento-1">
+                      Senhor
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="formas-tratamento" id="forma-tratamento-2">
+                      Senhora
+                    </label>
+                  </div>
+                  <div class="form-check disabled">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="formas-tratamento" id="forma-tratamento-3" disabled>
+                      Senhorita
+                    </label>
+                  </div>
+                </fieldset>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">
+                    Usuário ativo?
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- *** Form com grid *** -->
+        <div class="card">
+          <div class="card-header" role="tab" id="form-com-grid-cabecalho">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#accordion" href="#form-com-grid-conteudo">Formulário com Grid</a>
+            </h5>
+          </div>
+          <div id="form-com-grid-conteudo" class="collapse" role="tabpanel">
+            <div class="card-block">
+              <div class="form-group row">
+                <label for="txt-nome" class="col-form-label col-md-1 col-sm-12">Nome:</label>
+                <div class="col-md-5 col-sm-12">
+                  <input type="text" class="form-control" placeholder="Insira seu nome" id="txt-nome">
+                </div>
+                <label for="txt-sobrenome" class="col-form-label col-md-1 col-sm-12">Sobrenome:</label>
+                <div class="col-md-5 col-sm-12">
+                  <input type="text" class="form-control" placeholder="Insira seu sobrenome" id="txt-sobrenome">
+                </div>
+              </div>
+              <fieldset class="form-group row">
+                <div class="col-md-6 col-sm-12">
+                  <legend>Selecione a forma de tratamento</legend>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="formas-tratamento" id="forma-tratamento-1">
+                      Senhor
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="formas-tratamento" id="forma-tratamento-2">
+                      Senhora
+                    </label>
+                  </div>
+                  <div class="form-check disabled">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="formas-tratamento" id="forma-tratamento-3" disabled>
+                      Senhorita
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+
+        <!-- *** Form horizontal *** -->
+        <div class="card">
+          <div class="card-header" role="tab" id="form-horizontal-cabecalho">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#accordion" href="#form-horizontal-conteudo">Formulário Horizontal</a>
+            </h5>
+          </div>
+          <div id="form-horizontal-conteudo" class="collapse" role="tabpanel">
+            <div class="card-block">
+              <form class="form-inline">
+                <div class="form-group">
+                  <label for="txt-login">E-mail:</label>
+                  <input type="text" class="form-control" id="txt-login">
+                </div>
+                <div class="form-group">
+                  <label for="txt-senha">Senha:</label>
+                  <input type="password" class="form-control" id="txt-senha">
+                </div>
+                <button type="button" class="btn btn-success">Login</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- *** FIM - Sanfona Acordion *** -->
+  </div>
+  <script src="assets/js/jquery-3.1.0.js"></script>
+  <script src="assets/js/tether.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>
